@@ -219,6 +219,7 @@ body{
   }
   .content{
     display: flex;
+    justify-content: space-around;
     width: 100%;
     margin-top: 80px;
     /* position: relative; */
@@ -262,7 +263,7 @@ hr{
     padding:10px;
     border-radius: 7px;
     border: none;
-    font-size: 19px;
+    font-size: 16px;
    
   }
   .active{
@@ -282,11 +283,11 @@ hr{
   .bound{
     display: grid;
     justify-content: space-around;
-    grid-template-columns: repeat(4,400px);
+    grid-template-columns: repeat(4,350px);
     gap:40px;
   }
   .main-img{
-    width:25rem;
+    width:23rem;
     height: 23vh;
     cursor: pointer;
     border-radius: 20px;
