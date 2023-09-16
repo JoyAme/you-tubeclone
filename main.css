@@ -303,10 +303,11 @@ hr{
   }
   .bound{
     display: grid;
+    grid-template-columns: repeat(4,290px);
     /* width:100%; */
     border: 1px solid red;
     /* justify-content: space-around; */
-    grid-template-columns: repeat(4,320px);
+    /* grid-template-columns: repeat(4,320px); */
     /* grid-template-columns: repeat(auto-fit, min-max(1fr,400px)); */
     gap:6rem;
   }
@@ -406,6 +407,23 @@ hr{
         margin-top: 70px;
       } */
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
