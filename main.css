@@ -299,7 +299,7 @@ hr{
   .bound{
     display: grid;
     /* justify-content: space-around; */
-    grid-template-columns: repeat(4,360px);
+    grid-template-columns: repeat(4,310px);
     gap:40px;
   }
   .main-img{
