@@ -384,6 +384,15 @@ top:80px;
     .header{
       justify-content: ;
     }
+    .main-img1{
+      width:12rem;
+      height: 28vh;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+    .short{
+      overflow-x: scroll;
+    }
     .search-com,
     .bar{
       display: none;
@@ -400,7 +409,7 @@ top:80px;
     top:80px;
      overflow-x:scroll; */
     }
-    .left-side::-webkit-scrollbar {
+    .center::-webkit-scrollbar {
       display: none;
     }
     .bound{
