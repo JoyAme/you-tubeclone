@@ -379,14 +379,15 @@ top:80px;
   /* MOBILE VIEW */
   @media screen and (max-width:480px) {
     /* body{
-        background-color: green;
+      overflow: hidden;
+       
     } */
- 
+/*  
     .main-img{
-      width:120%;
+      width:100%;
       height: 20vh;
     
-    }
+    } */
     .main-img1{
       width:10rem;
       height: 28vh;
@@ -407,7 +408,7 @@ top:80px;
       display: none;
     }
     .scroll-btn{
-      
+      justify-content: flex-end;
       max-width:90%;
       /* height:70px;
       
@@ -425,7 +426,7 @@ top:80px;
        display: grid;
        justify-content: center;
        grid-template-columns: 1fr;
-       gap:10px;
+       /* gap:10px; */
       }
       .left-side{
         display: none;
@@ -440,6 +441,11 @@ top:80px;
         cursor: pointer;
         gap:10px;
     }
+    /* .card{
+     
+      width:70%;
+      
+    } */
     
       /* .shorts{
         margin-top: 70px;
