@@ -220,7 +220,7 @@ body{
   .content{
     display: flex;
     gap:40px;
-    width: 100%;
+    /* width: 100%; */
     margin-top: 80px;
     /* position: relative; */
   }
@@ -303,10 +303,10 @@ hr{
     display: grid;
     /* justify-content: space-around; */
     grid-template-columns: repeat(4,340px);
-    gap:40px;
+    /* gap:30px; */
   }
   .main-img{
-    width:100%;
+    width:22rem;
     height: 21vh;
     cursor: pointer;
     border-radius: 20px;
