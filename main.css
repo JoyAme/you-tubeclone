@@ -384,14 +384,24 @@ top:80px;
     .header{
       justify-content: ;
     }
+    .main-img{
+      width:120%;
+      height: 20vh;
+      object-fit: cover;
+      border-radius: 20px;
+    }
     .main-img1{
-      width:12rem;
+      width:10rem;
       height: 28vh;
       object-fit: cover;
       border-radius: 20px;
     }
+    .title1{
+      font-size: 12px;
+    }
     .short{
       overflow-x: scroll;
+      width:150%;
     }
     .search-com,
     .bar{
