@@ -245,9 +245,9 @@ body{
 overflow-y:scroll; 
  
   }
-  .body::-webkit-scrollbar {
-    width: 20px;
-  }
+  /* .scroll-btn::-webkit-scrollbar {
+    width: 10px;
+  } */
   /* .body{
     overflow-y:scroll; 
    
@@ -267,19 +267,22 @@ hr{
   .scroll-btn{
     display: flex;
     position: fixed;
+    width:80%;
+    /* height:100vh; */
     z-index: 1px;
     background-color: white;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
    /* margin-top: 20px; */
     /* right:0; */
    gap:10px;
-   /* overflow-x:scroll; */
+   overflow-x:scroll;
   }
   .scr-btn{
     padding:10px;
+    
     border-radius: 7px;
     border: none;
-    font-size: 16px;
+    font-size: 14px;
    
   }
   .active{
