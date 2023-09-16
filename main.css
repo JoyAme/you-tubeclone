@@ -318,8 +318,8 @@ hr{
 
 
   .bound{
-    display: grid;
-    grid-template-columns: repeat(4,300px);
+    /* display: grid;
+    grid-template-columns: repeat(4,300px); */
     /* width:100%; */
     border: 1px solid red;
     /* justify-content: space-around; */
