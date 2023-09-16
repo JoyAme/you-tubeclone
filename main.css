@@ -403,7 +403,9 @@ top:80px;
       overflow-x: scroll;
       width:150%;
     }
-    .search-com,
+    .search-com{
+      display: none;
+    }
     .bar{
       display: none;
     }
