@@ -342,8 +342,8 @@ top:80px;
     height: 170px;
   }
   .main-img{
-    width:23rem;
-    height: 22vh;
+    width:100%;
+    height: 20vh;
     object-fit: cover;
     cursor: pointer;
     border-radius: 10px;
