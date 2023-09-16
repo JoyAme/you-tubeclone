@@ -5,7 +5,7 @@
 }
 body{
     background-color:white;
-    overflow: hidden;
+    color: black;
 }
 /* .boy{
     position: fixed;
@@ -382,12 +382,12 @@ top:80px;
       overflow: hidden;
        
     } */
-/*  
+ 
     .main-img{
-      width:100%;
+      width:110%;
       height: 20vh;
     
-    } */
+    }
     .main-img1{
       width:10rem;
       height: 28vh;
@@ -399,7 +399,7 @@ top:80px;
     }
     .short{
       overflow-x: scroll;
-      width:150%;
+      width:100%;
     }
     .search-com{
       display: none;
@@ -420,6 +420,9 @@ top:80px;
      overflow-x:scroll; */
     }
     .center::-webkit-scrollbar {
+      display: none;
+    }
+    .short::-webkit-scrollbar {
       display: none;
     }
     .bound{
