@@ -238,9 +238,9 @@ body{
   }
   .side{
     /* float:left; */
-    width:105%;
+    /* width:105%; */
   margin-top: 10px;
-  padding: 10px;
+  /* padding: 10px; */
     height: 100vh;
 overflow-y:scroll; 
  
@@ -271,15 +271,15 @@ hr{
     background-color: white;
     padding-bottom: 20px;
    /* margin-top: 20px; */
-    right:0;
-   gap:20px;
+    /* right:0; */
+   gap:10px;
    /* overflow-x:scroll; */
   }
   .scr-btn{
     padding:10px;
     border-radius: 7px;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
    
   }
   .active{
