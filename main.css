@@ -302,12 +302,12 @@ hr{
   .bound{
     display: grid;
     /* justify-content: space-around; */
-    grid-template-columns: repeat(4,340px);
+    grid-template-columns: repeat(4,300px);
     /* gap:30px; */
   }
   .main-img{
-    width:22rem;
-    height: 21vh;
+    width:18rem;
+    height: 16vh;
     cursor: pointer;
     border-radius: 20px;
   }
@@ -315,7 +315,7 @@ hr{
     border-radius: 0px;
   }
   .main-img1{
-    width:15rem;
+    width:12rem;
     height: 40vh;
     object-fit: cover;
     border-radius: 20px;
@@ -367,7 +367,7 @@ hr{
     display: flex;
     margin-bottom: 30px;
     cursor: pointer;
-    gap:40px;
+    gap:20px;
 }
 
 
