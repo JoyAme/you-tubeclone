@@ -261,6 +261,13 @@ hr{
   overflow-y: scroll;
   box-sizing: border-box;
 }
+.About{
+  font-size: 10px;
+  width:200px;
+}
+.copy-right{
+  padding-bottom: 20px;
+}
 .center{
   width:90%;
   height:100vh;
