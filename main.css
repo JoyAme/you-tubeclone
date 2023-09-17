@@ -196,7 +196,7 @@ body{
     font-size: 26px;
   }
   .icon-title{
-    font-size: 16px;
+    font-size: 14px;
     
   }
   .subscribe{
@@ -266,9 +266,9 @@ hr{
 .scroll-btn{
   display: flex;
   position: fixed;
-  max-width:100%;
+  max-width:70%;
   height:70px;
-  
+  gap:20px;
   padding: 10px;
   justify-content: flex-start;
   z-index:1;
@@ -298,7 +298,7 @@ top:80px;
   display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* grid-template-columns: repeat(auto-fit, min-max(1fr,400px)); */
-   margin-top: 90px;
+   margin-top: 50px;
    
   }
   .content-t{
@@ -340,6 +340,9 @@ top:80px;
   }
   .title{
     font-size: 18px;
+  }
+  .title1{
+    font-size: 16px;
   }
   .circle{
     padding: 2px;
