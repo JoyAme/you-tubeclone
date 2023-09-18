@@ -117,6 +117,9 @@ body{
     text-align: center;
    height: 3rem;
 }
+a{
+  color:black;
+}
 .search-com{
     display: flex;
     gap: 8px;
@@ -394,8 +397,12 @@ top:80px;
 
   /* MOBILE VIEW */
   @media screen and (max-width:480px) {
-  
- 
+  .barz{
+    margin-left: -2px;
+  }
+ .header{
+  padding:5px;
+ }
     .main-img{
       width:105%;
       
@@ -403,8 +410,8 @@ top:80px;
     
     }
     .main-img1{
-      width:10rem;
-      height: 28vh;
+      width:7rem;
+      height: 30vh;
       object-fit: cover;
       border-radius: 20px;
     }
