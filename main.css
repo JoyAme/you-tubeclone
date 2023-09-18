@@ -39,6 +39,16 @@ body{
     margin-left: 20px;
     align-items: center;
 }
+.bar:hover{
+    background-color: rgba(61, 60, 58, 0.357);
+    border-radius: 999px;
+ padding: 2px;
+  
+
+  /* padding: 3px; */
+  text-align: center;
+  align-items: center;
+}
 .playTube{
     display: flex;
     gap:2px;
@@ -119,6 +129,7 @@ body{
 }
 a{
   color:black;
+  cursor: pointer;
 }
 .search-com{
     display: flex;
@@ -162,6 +173,7 @@ a{
 }
 .bar{
     font-size: 30px;
+    /* margin-right: 20px; */
 }
 .play{
     font-size: 33px;
@@ -170,7 +182,8 @@ a{
 .Identity{
     background-color: green;
     width:40px;
-    padding: 7px;
+    height: 40px;
+    padding: 6px;
     color:white;
     font-size: 18px;
     border-radius: 999px;
@@ -194,8 +207,8 @@ a{
 
   
   .iconss:hover{
-    background-color: rgba(172, 169, 167, 0.802);
-    width:80%;
+    background-color: rgba(172, 169, 167, 0.266);
+    width:90%;
     border-radius: 9px;
   }
   .icony{
@@ -461,6 +474,16 @@ top:80px;
        justify-content: center;
        grid-template-columns: 1fr;
      
+      }
+      .Identity{
+          width:30px;
+        height: 30px;
+        padding: 7px;
+     
+        font-size: 14px;
+    }
+      .short-title{
+        font-size: 18px;
       }
       .content-t{
         margin-top: 30px;
